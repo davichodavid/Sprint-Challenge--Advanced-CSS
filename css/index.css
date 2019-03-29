@@ -174,8 +174,8 @@ p {
 }
 .top-nav nav {
   display: flex;
-  width: 50%;
-  justify-content: center;
+  width: 500px;
+  justify-content: space-around;
 }
 @media (max-width: 500px) {
   .top-nav nav {
@@ -184,8 +184,8 @@ p {
   }
 }
 .top-nav nav a {
-  padding: 0 3%;
-  font-size: 1.8rem;
+  padding: 0 0 10px;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #454A59;
 }
