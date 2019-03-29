@@ -1,1 +1,25 @@
 // Mixins Here
+.nav() {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.a() {
+  padding: 0 3%;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: @river-bend;
+}
+
+//parametric mixin
+.btn(@b-color: black, @color: white) {
+  background-color: @b-color;
+  color: @color;
+  width: 30%;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+}
