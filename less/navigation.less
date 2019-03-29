@@ -15,8 +15,17 @@
   nav {
     .nav();
 
+    @media @phone {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
     a {
       .a();
+
+      @media @phone {
+        font-size: 1.6rem;
+      }
     }
   }
 }
