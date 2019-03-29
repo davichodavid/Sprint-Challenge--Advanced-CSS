@@ -167,6 +167,13 @@ p {
   background-color: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
 }
+@media (max-width: 500px) {
+  .top-nav {
+    position: fixed;
+    width: 100%;
+    opacity: 0.96;
+  }
+}
 .top-nav h1 {
   font-size: 3.8rem;
   margin: 20px 0;
@@ -207,6 +214,11 @@ footer {
 .head-img {
   border-radius: 5px;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .head-img {
+    margin-top: 115px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
